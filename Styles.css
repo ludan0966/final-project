@@ -1,0 +1,423 @@
+
+
+.resume {
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  margin: 10px auto;
+  overflow: hidden;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.left {
+  float: left;
+  background-color: #6c999a;
+  margin-left: 50px;
+  width: 200px;
+  height: 800px;
+  color: white;
+}
+
+.photoCircle {
+  width: 154px;
+  height: 154px;
+  border: 1px solid white;
+  border-radius: 77px;
+  margin-left: 23px;
+  margin-top: 52px;
+  background-color: #6c999a;
+  overflow: hidden;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  margin-top: 2px;
+  margin-left: 2px;
+  border-radius: 75px;
+  background-color: pink;
+  background: url(profile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.profile,
+.contact {
+  margin-left: 15px;
+  margin-top: 50px;
+  font-size: 13px;
+}
+
+.telephoneicon {
+  font-family: 'icomoon';
+  float: left;
+  width: 20px;
+}
+
+.emailicon {
+  font-family: 'icomoon';
+  float: left;
+  width: 20px;
+}
+
+.email {
+  margin-top: 5px;
+}
+
+.emailaddress, .telephonenumber, .profile p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.top {
+  /* width: calc(max(100vw)); */
+  height: 158px;
+  background-color: #ebcbbb;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.top h1 {
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 280px;
+  margin-bottom: 5px;
+}
+
+.top p {
+  text-align: left;
+  padding-left: 280px;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.7)
+}
+
+.arrowicon {
+  font-family: 'icomoon';
+  float: left;
+  margin-left: 30px;
+  margin-right: 10px;
+  color: #6c999a;
+}
+
+.bottom h5 {
+  padding-left: 280px;
+}
+
+.bottom p {
+  padding-left: 280px;
+}
+
+.education,
+.language,
+.programmingskills {
+  margin-top: 50px;
+}
+
+.tab {
+  margin: 20px;
+  border: 1px solid #e4e4e4;
+}
+
+.tab-nav { 
+  line-height: 100px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-nav ul {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tab-nav ul li {
+  float: left;
+  margin-left: 100px;
+  margin-right: 50px;
+  font-size: 14px;
+ 
+}
+
+.tab-nav ul li a {
+ border-bottom: 2px solid transparent;
+ color: #333;
+}
+
+.tab-nav ul li a.active {
+ border-color: #e1251b;
+ color: #e1251b;
+}
+
+.tab-content {
+  position: relative;
+}
+
+.tab-content .item {
+  width: 100%;
+  display: none;
+  position: absolute;
+}
+
+.tab-content .item.active {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  line-height: 30px;
+}
+
+
+li a {
+  text-decoration: none;
+  color: #6c999a;
+}
+
+h3 {
+  color: gray;
+  width: 500px;
+  height: 50px;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 50px;
+  background-color: #ebcbbb;
+  
+}
+
+.item {
+  border:1px solid #6c999a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.chapter {
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  min-width: 400px;
+  max-width: 800px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url(avatar.jpg) no-repeat center / cover;
+  margin-right: 20px;
+}
+
+.wrapper textarea {
+  outline: none;
+  border-color: transparent;
+  resize: none;
+  background: #f5f5f5;
+  border-radius: 4px;
+  flex: 1;
+  padding: 10px;
+  transition: all 0.5s;
+  height: 50px;
+}
+
+.wrapper textarea:focus {
+  border-color: #e4e4e4;
+  background: #fff;
+  height: 50px;
+}
+
+.wrapper button {
+  background: #00aeec;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.wrapper .total, .wrapper .total2, .wrapper .total3 {
+  margin-right: 80px;
+  color: #999;
+  margin-top: 5px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.list {
+  min-width: 400px;
+  max-width: 800px;
+  display: flex;
+}
+
+.list .note {
+  width: 100%;
+  display: flex;
+}
+
+.list .note .info {
+  flex: 1;
+  border-bottom: 1px dashed #e4e4e4;
+  padding-bottom: 10px;
+}
+
+.list .note p {
+  margin: 15px 0;
+}
+
+.name {
+  color: #fb7299;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.postnote {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(bg1.png) no-repeat;
+  animation: bgMove 10s linear infinite;
+}
+
+.bear {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: url(bear.png) no-repeat;
+  animation: bearRun 1s steps(8) infinite, bearMove 5s forwards;
+}
+
+@keyframes bgMove {
+  from {
+    background-position: 0 -180px;
+  }
+
+  to {
+    background-position: -1600px -180px;
+  }
+}
+
+@keyframes bearRun {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -1600px 0;
+  }
+}
+
+@keyframes bearMove {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: calc(50% - 100px);
+  }
+}
+
+.item:nth-child(2) {
+  position: relative;
+}
+
+
+.hobby {
+  height: 200px;  
+}
+
+.tab-content a:hover {
+  color: hotpink;
+}
+
+.hobbycontent {
+  position: relative;
+  height: 500px;
+  background-color: white;
+}
+
+.hobby1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background: url(photography.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+
+.hobbyleft {
+ position: absolute;
+ left: 100px;
+ width: 300px;
+ height: 400px;
+ margin-top: 20px;
+}
+
+.hobby2 { 
+  border-radius: 150px;
+  width: 300px;
+  height: 300px;
+  background: url(hiking.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hobbymiddle {
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+ width: 300px;
+ height: 400px;
+ margin-top: 20px;
+}
+
+.hobby3 { 
+  border-radius: 150px;
+  width: 300px;
+  height: 300px;
+  background: url(ukelele.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hobbyright {
+  position: absolute;
+  right: 100px;
+  width: 300px;
+ height: 400px;
+ margin-top: 20px;
+
+}
+
+.hobbyleft p, 
+.hobbymiddle p, .hobbyright p {
+  text-align: center;
+  color: cadetblue;
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?o4bf98');
+  src:  url('fonts/icomoon.eot?o4bf98#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?o4bf98') format('truetype'),
+    url('fonts/icomoon.woff?o4bf98') format('woff'),
+    url('fonts/icomoon.svg?o4bf98#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
